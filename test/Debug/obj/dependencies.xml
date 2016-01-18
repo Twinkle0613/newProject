@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\..\..\Desktop\Class\newProject\Drivers\CMSIS /I..\..\..\..\..\..\..\Desktop\Class\newProject\Drivers /I..\..\..\..\..\..\..\Desktop\Class\newProject\app /I..\..\..\..\..\..\..\Desktop\Class\newProject\app\Config /I..\..\..\..\..\..\..\Desktop\Class /I..\..\..\..\..\..\..\Desktop\Class\newProject /I..\..\..\..\..\..\..\Desktop\Class\newProject\Drivers\CMSIS\Include">
+      <source file="..\..\..\Drivers\CMSIS\Include\core_cmInstr.h" lastModified="152460d0f17">
+      </source>
+      <source file="..\..\..\app\Gpio.h" lastModified="152462b6c30">
+      </source>
+      <source file="..\..\..\Drivers\CMSIS\Include\core_cmFunc.h" lastModified="152460d0f17">
+      </source>
+      <source file="..\..\..\Drivers\CMSIS\Include\core_cm4.h" lastModified="152460d0747">
+         <include file="..\..\..\Drivers\CMSIS\Include\core_cmInstr.h"/>
+         <include file="..\..\..\Drivers\CMSIS\Include\core_cmFunc.h"/>
+         <include file="..\..\..\Drivers\CMSIS\Include\core_cmSimd.h"/>
+      </source>
+      <source file="..\..\..\app\Config\stm32f429xx.h" lastModified="152460d0747">
+         <include file="..\..\..\Drivers\CMSIS\Include\core_cm4.h"/>
+         <include file="..\..\..\app\Config\system_stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\app\Config\stm32f4xx.h" lastModified="152460d323f">
+         <include file="..\..\..\app\Config\stm32f429xx.h"/>
+      </source>
+      <source file="..\..\..\app\Gpio.c" lastModified="152462a3f14">
+         <include file="..\..\..\app\Gpio.h"/>
+         <include file="..\..\..\app\Rcc.h"/>
+      </source>
+      <source file="..\..\..\app\Config\startup_stm32f429xx.s" lastModified="152460d0340">
+      </source>
+      <source file="..\..\..\Drivers\CMSIS\Include\core_cmSimd.h" lastModified="152460d0f36">
+      </source>
+      <source file="..\..\..\app\Config\system_stm32f4xx.h" lastModified="152460d035f">
+      </source>
+      <source file="..\..\..\app\main.c" lastModified="1524629f16a">
+         <include file="..\..\..\app\Config\stm32f4xx.h"/>
+         <include file="..\..\..\app\Gpio.h"/>
+         <include file="..\..\..\app\Rcc.h"/>
+      </source>
+      <source file="..\..\..\app\Config\system_stm32f4xx.c" lastModified="152460d035f">
+         <include file="..\..\..\app\Config\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\app\Rcc.h" lastModified="152462ba0e6">
+         <include file="..\..\..\app\Gpio.h"/>
+      </source>
+   </includePath>
+</dependencies>
